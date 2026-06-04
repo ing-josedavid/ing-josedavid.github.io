@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mi Portafolio Profesional</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+
+        body{
+            background-color:#f8f9fa;
+        }
+
+        /* Banner principal */
+        .hero-section{
+            background: linear-gradient(
+                rgba(0,0,0,0.75),
+                rgba(0,0,0,0.75)
+            ),
+            url('banner.jpg');
+            background-size: cover;
+            background-position: center;
+            color:white;
+            min-height: 250px;
+            display:flex;
+            align-items:center;
+        }
+
+        /* Foto de perfil */
+        .profile-img{
+            width:270px;
+            height:270px;
+            object-fit:cover;
+            border-radius:50%;
+            border:5px solid white;
+            box-shadow:0 0 20px rgba(255,255,255,.3);
+        }
+
+        /* Logos de tecnologías */
+        .tech-logo{
+            height:50px;
+            margin:8px;
+            transition:.3s;
+        }
+
+        .tech-logo:hover{
+            transform:scale(1.1);
+        }
+
+        .fondo-blanco {
+            background-color: #ffffff;
+            padding: 5px;
+            border-radius: 5px; /* Opcional: bordes redondeados */
+        }
+
+        /* Tarjetas de proyectos */
+        .project-card{
+            transition:0.3s;
+        }
+
+        .project-card:hover{
+            transform:translateY(-5px);
+            box-shadow:0 10px 20px rgba(0,0,0,.15);
+        }
+
+        .section-title{
+            font-weight:700;
+            margin-bottom:30px;
+        }
+
+    </style>
+</head>
+<body>
+
+<!-- ===================== -->
+<!-- SECCIÓN PRINCIPAL -->
+<!-- ===================== -->
+
+<section class="hero-section">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <!-- FOTO -->
+            <div class="col-lg-4 text-center mb-4 mb-lg-0">
+                <img src="visuales\Foto-perfil.jpg" alt="Foto de perfil" class="profile-img">
+            </div>
+
+            <!-- INFORMACIÓN -->
+            <div class="col-lg-8">
+
+                <h1 class="display-4 fw-bold">
+                    Ing. José David Magaña Moreno
+                </h1>
+
+                <h3 class="text-info">
+                    Analista de Datos Junior / Data Analyst Jr | Automatización, Reporting y Business Intelligence
+                </h3>
+
+                <p class="lead mt-3">
+                    Analista de Datos Junior con experiencia en tecnología, automatización y análisis de información.
+                    Especializado en SQL, Python, Excel y Power BI para transformar datos en información accionable mediante dashboards,
+                    reportes y análisis de negocio. 
+                    Experiencia en optimización de procesos, documentación técnica y mejora operativa dentro de entornos corporativos
+                    de gran escala.
+                </p>
+
+                <div class="row align-items-center mt-4">
+                 <div class="col-lg-6">
+                    <p>
+                        <i class="bi bi-envelope-fill"></i>
+                        ing.josedavid.mm@gmail.com 
+                    </p>
+                 </div>
+                 <div class="col-lg-6">
+                    <p>
+                        <i class="bi bi-linkedin"></i>
+                        linkedin.com/in/usuario
+                    </p>
+                  </div>                  
+                  <div class="col-lg-6">
+                    <p>
+                        <i class="bi bi-telephone-fill"></i>
+                        +52 246 123 4567
+                    </p>
+                  </div>
+                  <div class="col-lg-6">
+                    <p>
+                        <i class="bi bi-geo-alt-fill"></i>
+                        Tlaxcala, México
+                    </p>
+                  </div>
+                </div>
+
+                <!-- LOGOS -->
+                <div class="mt-4">
+
+                    <!-- Python -->
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png"
+                        alt="Python"
+                        class="tech-logo fondo-blanco">
+
+                    <!-- SQL -->
+                    <img src="https://cdn-icons-png.flaticon.com/512/4248/4248443.png"
+                        alt="SQL"
+                        class="tech-logo fondo-blanco">
+
+                    <!-- Excel -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Microsoft_Excel_2019_present.svg"
+                        alt="Excel"
+                        class="tech-logo fondo-blanco">
+                    
+                    <!--Google Sheets-->
+                    <img src="https://cdn.simpleicons.org/googlesheets"
+                    alt="Google Sheets"
+                    class="tech-logo fondo-blanco">
+
+                    <!-- Power BI -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"
+                        alt="Power BI"
+                        class="tech-logo fondo-blanco">
+
+                    <!-- Tableau -->
+                    <img src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg"
+                        alt="Tableau"
+                        class="tech-logo fondo-blanco">
+
+                    <!-- VBA -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/VB.NET_Logo.svg"
+                        alt="VBA"
+                        class="tech-logo fondo-blanco">
+
+                    <!-- pandas -->
+                    <img src="https://cdn.simpleicons.org/pandas"
+                        alt="pandas"
+                        class="tech-logo fondo-blanco">
+
+                    <!-- NumPy -->
+                    <img src="https://cdn.simpleicons.org/numpy"
+                        alt="NumPy"
+                        class="tech-logo fondo-blanco">
+
+                    <!-- Jupyter -->
+                    <img src="https://cdn.simpleicons.org/jupyter"
+                        alt="Jupyter Notebook"
+                        class="tech-logo fondo-blanco">
+
+                    <!-- Git -->
+                    <img src="https://cdn.simpleicons.org/git"
+                        alt="Git"
+                        class="tech-logo fondo-blanco">    
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ===================== -->
+<!-- PROYECTOS EN CARRUSEL -->
+<!-- ===================== -->
+
+<section class="py-5 bg-light">
+    <div class="container">
+
+        <h2 class="text-center section-title">
+            Proyectos Destacables
+        </h2>
+
+        <div id="proyectosCarousel"
+             class="carousel slide"
+             data-bs-ride="false">
+
+            <div class="carousel-inner">
+
+                <!-- Proyecto 1 -->
+                <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-9">
+
+                            <div class="card project-card shadow">
+
+                                <img src="visuales\proyecto 5\07052026 - Proyecto Final Sprint 5 - Gráfica Congestion Descendente vs PIB por Ciudad.jpg"
+                                    class="tech-logo img-fluid w-10"
+                                    alt="Proyecto 1">
+
+                                <div class="card-body text-center">
+                                    <h3 class="card-title">
+                                        Movilidad urbana y productividad económica para American Development Bank
+                                    </h3>
+
+                                    <p id="descripcion-proyecto-5" class="card-text">
+                                        Se analizarón datos de TomTom Traffic Index y OECD Cities para evaluar
+                                        la relación entre movilidad urbana y productividad económica en ciudades
+                                        latinoamericanas. Se limpiaron, integraron y analizaron los datos para 
+                                        identificar oportunidades de inversión en infraestructura de transporte
+                                        y generar información útil para la toma de decisiones.                                       
+                                    </p>
+
+                                    <a href="Proyecto 5 Mov urbana-productividad económica.html"
+                                       class="btn btn-primary">
+                                        Ver Proyecto
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 2 -->
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-9">
+
+                            <div class="card project-card shadow">
+
+                                <img src="visuales\proyecto 4\11032026 - Embudo por país PF SP4.jpg"
+                                    class="tech-logo img-fluid w-10"
+                                    alt="Proyecto 2">
+
+                                <div class="card-body text-center">
+
+                                    <h3 class="card-title">
+                                        Análisis de embudo y retención para Mercado Libre 
+                                    </h3>
+
+                                    <p class="card-text">
+                                        Se analizó el embudo de conversión mediante SQL para identificar puntos
+                                        críticos de abandono y evaluar la retención de usuarios por cohortes. Con
+                                        base en los hallazgos, se formularon recomendaciones accionables orientadas
+                                        a mejorar la conversión y la retención de usuarios.
+                                    </p>
+
+                                    <a href="Proyecto 4 Analisis embudo-retencion Mercado Libre.html"
+                                       class="btn btn-primary">
+                                        Ver Proyecto
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 3 -->
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-9">
+
+                            <div class="card project-card shadow">
+
+                                <img src="visuales\proyecto 3\Resumen ejecutivo_SP3_ PF.png"
+                                    class="tech-logo img-fluid w-10"
+                                    alt="Proyecto 3">
+
+                                <div class="card-body text-center">
+
+                                    <h3 class="card-title">
+                                        Análisis del desempeño financiero de Adventure Works
+                                    </h3>
+
+                                    <p class="card-text">
+                                        Se analizaron datos de órdenes, productos, territorios y campañas para identificar 
+                                        mercados de mayor rentabilidad, optimizar la asignación de presupuesto y generar
+                                        información estratégica para la toma de decisiones de inversión.
+                                    </p>
+
+                                    <a href="Proyecto 3 Analisis desempeño financiero Adventure Works.html"
+                                       class="btn btn-primary">
+                                        Ver Proyecto
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- BOTÓN ANTERIOR -->
+            <button class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#proyectosCarousel"
+                    data-bs-slide="prev">
+
+                <span class="carousel-control-prev-icon bg-dark rounded-circle p-3"></span>
+
+            </button>
+
+            <!-- BOTÓN SIGUIENTE -->
+            <button class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#proyectosCarousel"
+                    data-bs-slide="next">
+
+                <span class="carousel-control-next-icon bg-dark rounded-circle p-3"></span>
+
+            </button>
+
+            <!-- INDICADORES -->
+            <div class="carousel-indicators position-relative mt-4">
+
+                <button type="button"
+                        data-bs-target="#proyectosCarousel"
+                        data-bs-slide-to="0"
+                        class="active bg-primary">
+                </button>
+
+                <button type="button"
+                        data-bs-target="#proyectosCarousel"
+                        data-bs-slide-to="1"
+                        class="bg-primary">
+                </button>
+
+                <button type="button"
+                        data-bs-target="#proyectosCarousel"
+                        data-bs-slide-to="2"
+                        class="bg-primary">
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center py-4">
+    <p class="mb-0">
+        © 2026 - Tu Nombre Completo
+    </p>
+</footer>
+
+<!-- jQuery -->
+<!--script src="https://code.jquery.com/jquery-3.7.1.min.js"></script-->
+
+<!-- Script de carga -->
+<!--script>
+//$(document).ready(function () {
+    $("#descripcion-proyecto-5").html("D:/TripleTen - Cursos/Data Analyst/Sprint 6/Pag. Portafolio/descripciones/proyecto5_descripcion.html");
+});
+</script-->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+
+</script>
+
+</body>
+</html>
