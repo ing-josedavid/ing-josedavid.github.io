@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portafolio Profesional Data Analyst JDMM</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+
+        body{
+            background-color:#f8f9fa;            
+        }
+
+        /* Banner principal */
+        .hero-section{
+            /*background: linear-gradient(
+                rgba(0,0,0,0.75),
+                rgba(0,0,0,0.75)
+            ),
+            url('banner.jpg');*/
+            background:
+            linear-gradient(
+                rgba(0, 15, 40, 0.55),
+                rgba(0, 15, 40, 0.55)
+            ),
+            url("visuales/DA-banner-portafolio.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color:white;
+            min-height: 300px;
+            display:flex;
+            align-items:center;
+        }
+
+        /* Foto de perfil */
+        .profile-img{
+            width:220px;
+            height:220px;
+            object-fit:cover;
+            border-radius:50%;
+            border:5px solid white;
+            box-shadow:0 0 20px rgba(255,255,255,.3);
+        }
+
+        /* Logos de tecnologías */
+        .tech-logo{
+            height:70px;
+            margin:10px;
+            transition:.3s;
+        }
+
+        .tech-logo:hover{
+            transform:scale(1.1);
+        }
+
+        .fondo-blanco {
+            background-color: #ffffff;
+            padding: 5px;
+            border-radius: 5px; /* Opcional: bordes redondeados */
+        }
+
+        /* Tarjetas de proyectos */
+        .project-card{
+            transition:0.3s;
+        }
+
+        .project-card:hover{
+            transform:translateY(-5px);
+            box-shadow:0 10px 20px rgba(0,0,0,.15);
+        }
+
+        .section-title{
+            font-weight:700;
+            margin-bottom:30px;
+        }
+
+        .justifica{
+            text-align: justify;
+        }
+
+    </style>
+</head>
+<body>
+
+<!-- ===================== -->
+<!-- SECCIÓN PRINCIPAL -->
+<!-- ===================== -->
+<section class="hero-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- INFORMACIÓN -->
+            <div class="col-lg-8">
+                <h3 class="text-info">
+                    Desempeño comercial de Andes Retail Group 2024 - 2025
+                </h3>
+
+                <p class="lead mt-3">
+                 <b>
+                    Descripción gral.: Se creo un Dashboard interactivo en Power BI y Tableau que permite entender el desempeño comercial de los años 2024 – 2025
+                    de la empresa Andes Retail Group.
+                 </b>   
+                </p>                
+
+                <a href="index.html"
+                   class="btn btn-primary">
+                   Volver al Portafolio / Salir de Proyecto
+                </a>
+            </div>
+
+            <!-- LOGOS DE TECNOLOGIAS DEL PROYECTO -->
+            <div class="col-lg-4 text-center mb-4 mb-lg-0">
+                <!--img src="perfil.jpg" alt="Imagen relevante del proyecto X" class="profile-img"-->
+
+                <!-- Excel -->
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Microsoft_Excel_2019_present.svg"
+                alt="Excel"
+                class="tech-logo fondo-blanco">
+                
+                <!--Google Sheets-->
+                <img src="https://cdn.simpleicons.org/googlesheets"
+                alt="Google Sheets"
+                class="tech-logo fondo-blanco">
+
+                <!-- Power BI -->
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"
+                alt="Power BI"
+                class="tech-logo fondo-blanco"> 
+                
+                <!-- Tableau -->
+                <img src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg"
+                alt="Tableau"
+                class="tech-logo fondo-blanco">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== -->
+<!-- PROYECTOS -->
+<!-- ===================== -->
+<section class="py-5">
+    <div class="container">
+
+        <div class="row justify-content-center">
+            <!-- Proyecto 9 -->
+            <div class="col-md-12">
+                <div class="card project-card h-100">
+                    
+                    <div class="card-body">
+
+                        <h4 class="card-title">
+                            Descripción
+                        </h4>
+
+                        <p class="card-text">
+                            <h5> Introducción </h5>
+                            Andes Retail Group es una empresa de retail con operaciones en Perú, Chile y Colombia,<br>
+                            que comercializa productos en cuatro categorías:<br>
+                            
+                            <ul>
+                                <li>🖥️ Electrónica.</li>
+                                <li>👕 Ropa.</li>
+                                <li>⚽ Deportes.</li>
+                                <li>🏠 Hogar.</li>
+                            </ul>                                
+                            
+                            La dirección ejecutiva busca entender el desempeño comercial de los años 2024 y 2025.<br>
+                            Actualmente, la información está dispersa en datos transaccionales y no existe una visión<br>
+                            clara que permita responder preguntas estratégicas sobre ventas, rentabilidad y <br>
+                            comportamiento de clientes.<br>
+                            Se transformo dicha información en datos entendibles, presentados de manera visual, clara y<br>
+                            accionable, un Dashboard con narrativa.<br><br>
+
+                            <h5>💡 Preguntas del negocio</h5>
+                            <ol> 
+                                <li>¿Cómo ha evolucionado el ingreso total entre 2024 y 2025?</li>
+                                <li>¿Qué segmentos de clientes aportan mayor ingreso y rentabilidad?</li>
+                                <li>¿Qué categorías de producto tienen mayor impacto en el negocio?</li>
+                                <li>¿Existen diferencias relevantes entre países o regiones?</li>
+                                <li>¿Qué patrones temporales se observan a lo largo del año?</li>
+                                <li>¿Dónde podrían existir oportunidades de mejora comercial?</li>
+                            </ol>
+
+                            <h5>Metodología alto nivel:</h5>
+                            1.- Se realizó conexión y se valido el dataset transaccional.<br>
+                            2.- Se Prepararón los datos para el análisis.<br>
+                            3.- Se diseñaron los dashboards aplicando principios de diseño visual profesional.<br>
+                            4.- Se construyeron las visualizaciones claras para responder las preguntas de negocio.<br>
+                            5.- Se implementaron filtros e interacciones que permitan exploración dinámica.<br>
+                            6.- Se construyo una narrativa estratégica usando el modelo SQCA.<br>
+                            7.- Se presentarón los hallazgos de forma ejecutiva, tanto en el dashboard como de manera asincrónica.<br>      
+                        </p>
+
+                    </div>
+
+                    <div class="card-footer bg-white border-0">
+                        <a href="#" class="btn btn-primary">
+                            Volver al Inicio
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <!-- Proyecto 1 -->
+            <div class="col-md-12">
+                <div class="card project-card h-100">
+                    
+                    <div class="card-body">
+
+                        <h4 class="card-title">
+                            Tecnologías relacionadas
+                        </h4>
+
+                        <p class="card-text">
+                           <b>Se trabajo con: Google Sheets, Excel, Power BI, Power Query y Tableau.</b>
+                        </p>
+
+                    </div>
+
+                    <div class="card-footer bg-white border-0">
+                        <a href="#" class="btn btn-primary">
+                            Volver al Inicio
+                        </a>
+                    </div>
+                </div>
+
+            </div>            
+
+        </div>
+
+        <div class="row justify-content-center">
+            <!-- Proyecto 1 -->
+            <div class="col-md-12">
+                <div class="card project-card h-100">
+
+                    <div class="card-body">
+                        <h4 class="card-title">
+                           Evidencias visuales
+                        </h4>
+
+                        <p class="card-text">
+                           <b> PARTE 1 </b><br>
+                           Se realizó la conexión al Dataset en Excel y se valido dicho dataset, se prepararón los datos para el análisis en Power Query en el caso<br>
+                           de Power BI y se realizaron tareas análogas en la pestaña de Fuente de Datos en Tableau, enseguida se presentan las imagenes relacionadas<br>
+                           a los procesos descritos.<br><br>
+                           <b>👉 Vistas de la tabla del Dataset o fuente de datos en Power BI:</b><br>
+                        </p>
+
+                        <img src="visuales\proyecto 9\Power Query 1.jpg"
+                        class="img-fluid w-55"
+                        alt="Proyecto">
+                        
+                        <p class="card-text">
+                           <br><b>👉 Estadisticas básicas de la columna de Ingresos como 1ra revisión en Power BI:</b><br>                         
+                        </p>
+
+                        <img src="visuales\proyecto 9\Power Query 2.jpg"
+                        class="img-fluid w-55"
+                        alt="Proyecto">
+
+                        <p class="card-text">
+                           <br><b>👉 Vista de generación de columna condicional en Power BI:</b><br>                         
+                        </p>
+
+                        <img src="visuales\proyecto 9\Power Query Columna Condicional.jpg"
+                        class="img-fluid w-60"
+                        alt="Proyecto">
+
+                        <p class="card-text">
+                           <br><b>👉 Vista de la tabla del Dataset o fuente de datos en Tableau:</b><br>                         
+                        </p>
+
+                        <img src="visuales\proyecto 9\Tableau Fuente de datos 1.jpg"
+                        class="img-fluid w-60"
+                        alt="Proyecto">
+
+                        <p class="card-text">
+                           <br><b>👉 Vista de generación de columna condicional en Tableau:</b><br>                         
+                        </p>
+
+                        <img src="visuales\proyecto 9\Tableau Fuente de datos 2.jpg"
+                        class="img-fluid w-60"
+                        alt="Proyecto">
+
+                        <p class="card-text">
+                            <b><br> PARTE 2 <br></b>
+                            Se crearon Dashboards para ambas Tecnologías: Power BI y Tableau, cada Dashboard esta integrado de 2 vistas, la vista gral. u OverView<br>
+                           y la vista de detalle o DetailView, a continución se presentan las vistas de los Dashboard.<br><br>
+                           <b>👉 Vista General del Dashboard en Power BI:</b><br>
+                        </p>
+                         
+                        <img src="visuales\proyecto 9\Dashboard 1 - Vista Gral - Power BI 2da Ver.jpg"
+                        class="img-fluid w-60"
+                        alt="Proyecto">
+                        
+                        <p class="card-text">
+                           <br><b>👉 Vista de Detalle del Dashboard en Power BI:</b><br>                         
+                        </p>
+
+                        <img src="visuales\proyecto 9\Dashboard 2 - Vista Detalle - Power BI 2da Ver.jpg"
+                        class="img-fluid w-60"
+                        alt="Proyecto">
+                        
+                        <p class="card-text">
+                           <br><b>👉 Vista General del Dashboard en Tableau:</b><br>                         
+                        </p>
+
+                        <img src="visuales\proyecto 9\Dashboard 3 - Vista Gral - Tableau.jpg"
+                        class="img-fluid w-60"
+                        alt="Proyecto">
+                        
+                        <p class="card-text">
+                           <br><b>👉 Vista de Detalle del Dashboard en Tableau:</b><br>                         
+                        </p>
+
+                        <img src="visuales\proyecto 9\Dashboard 4 - Vista Detalle - Tableau.jpg"
+                        class="img-fluid w-60"
+                        alt="Proyecto">                         
+                    </div>
+
+                    <div class="card-footer bg-white border-0">
+                        <a href="#" class="btn btn-primary">
+                            Volver al Inicio
+                        </a>
+                    </div>
+                </div>
+
+            </div>            
+
+        </div>
+
+        <!--div class="row justify-content-center"-->
+            <!-- Proyecto 1 -->
+            <!--div class="col-md-12">
+                <div class="card project-card h-100">
+
+                    <div class="card-body">
+
+                        <h4 class="card-title">
+                            Código fuente (Si aplica)
+                        </h4>
+
+                        <p class="card-text">
+                            El proyecto utiliza poco código, casi solo para generar las columnas calculadas de clasificación de las ventas <br>
+                            y para separar el año o mes de la fecha. Se presentan a continuación los bloques de código.<br>                            
+                        </p>
+
+                        <img src="visuales\proyecto x\Codigo_ejemplo_SQL.jpg"
+                         class="img-fluid w-60"
+                         alt="Proyecto">
+
+                    </div>
+
+                    <div class="card-footer bg-white border-0">
+                        <a href="#" class="btn btn-primary">
+                            Volver al Inicio
+                        </a>
+                    </div>
+                </div>
+
+            </div>            
+
+        </div-->
+
+        <div class="row justify-content-center">
+            <!-- Proyecto 1 -->
+            <div class="col-md-12">
+                <div class="card project-card h-100">
+
+                    <div class="card-body">
+
+                        <h4 class="card-title">
+                            Documentación y explicaciones adicionales
+                        </h4>
+
+                        <p class="card-text justifica">
+                            <h5>📂 Dataset del Proyecto</h5>
+                            • Se utilizo como Dataset del proyecto el archivo: Andes_Retail_Group_2024_2025.xlsx que contiene transacciones<br>
+                            de ventas del negocio correspondientes a los años 2024 – 2025.<br>
+                            • Cada fila representa un pedido individual, incluyendo información del cliente, ubicación geográfica, categoría<br>
+                            de producto y métricas financieras como ingresos y costo.<br>
+                            • El dataset permitio analizar desempeño comercial, rentabilidad y comportamiento temporal del negocio y se compone<br>
+                            de los siguientes campos:<br>
+                        </p>
+
+                        <img src="visuales\proyecto 9\Data Set.jpg"
+                         class="img-fluid w-50"
+                         alt="Proyecto">
+
+                        <p style="text-align: justify;" class="card-text">
+                         <h5>👉 Diseño y planificación</h5>
+                            <b><i>Vista General o Overview</i></b><br>
+
+                            <b>KPI´s</b><br>
+                            Se consideran los siguientes 4:<br>
+                            • Ingreso total: Para que se pueda observar el ingreso total en un período determinado.<br>
+                            • Costos totales: Para que permita comparar los costos con los ingresos.<br>
+                            • Segmento de clientes dominante: Para tener en la mira el segmento de clientes que genera mayores ingresos.<br>
+                            • Categoría de producto dominante: Para tener en la mira la categoría que genera mayores ingresos.<br><br>
+
+                            <b>Gráfico(s)</b><br>
+                            • De barras agrupadas para comparar los ingresos por país y región y respaldar el KPI de ingreso total.<br>
+                            • De barras agrupadas para comparar los costos por país y región y respaldar el KPI de costo total.<br>
+                            • De barras agrupadas para comparar los ingresos por país y segmento de cliente y respaldar el KPI de segmento de cliente<br>
+                            dominante.<br>
+                            • De barras agrupadas para comparar los ingresos por país y categoría de producto y respaldar el KPI de categoría de producto<br>
+                            dominante.<br>
+                            • De lineas para mostrar la evolución en el tiempo de los ingresos por periodo anual y mensual. Este presenta 3 líneas de<br>
+                            estadisticos: la de promedio, la de maximo y la de minimo para tener un buen detalle de los ingresos en el tiempo.<br><br>
+
+                            <b>Filtro(s)</b><br>
+                            Se coloca un filtro por Año junto al título del dashboard ocupando aproximadamente la 5ta parte de la línea<br>
+                            visual para hacerlo un poco más discreto que el título, sin perderlo de vista y así poder notar desde el principio<br>
+                            la interactividad por período que ofrece.<br><br>
+
+                            <b><i>Vista detalle o Detailview - ¿Por qué se han caido/subido/mantenido los ingresos?</i></b><br>
+
+                            <b>Gráfico(s)</b><br>
+                            • De barras agrupadas para comparar las ventas por región y país, permitiendo visualizar su comportamiento por zona<br>
+                             geografica.<br>
+                            • De barras agrupadas para comparar las ventas por segmento de cliente por país, permitiendo visualizar su comportamiento<br>
+                            por tipo de cliente en algún país en especifico.<br>
+                            • De barras agrupadas para comparar las ventas por categoría de producto y país, permitiendo visualizar si han disminuido en<br>
+                            alguna categoría, en alguno de los paises donde se opera.<br>
+                            • De lineas para observar la evolución estacional de ingresos por país.<br>
+                            • De lineas para observar la evolución mensual de ventas por país.<br><br>
+
+                            <b>Tabla(s)</b><br>
+                            Se coloca una tabla para permitir la consulta detallada de datos en la que se incluyeron las columnas:<br>
+                            • Conteo ID_Pedido.<br>
+                            • Conteo único ID_Cliente.<br>
+                            • Fecha pedido.<br>
+                            • Estación.<br>
+                            • Costo.<br>
+                            • Unidades vendidas.<br>
+                            • Precio unitario.<br>
+                            • Ingresos.<br>
+                            • País.<br>
+                            • Región.<br>
+                            • Segmento_cliente.<br>
+                            • Categoría_producto.<br><br>
+                                
+                            <b>Filtro(s)</b><br>
+                            Se colocaron 6 filtros para:<br>
+                            • País.<br>
+                            • Región.<br>
+                            • Segmento de cliente.<br>
+                            • Categoría de producto.<br>
+                            • Fecha_pedido por año.<br>
+                            • Estación.<br><br>
+   
+                         <h5>👉 Narrativas de los Dashboards (Modelo SCQA)</h5>
+                            Historias de los dashboard utilizando SCQA, incluyendo contexto, problemas detectados, preguntas de negocio<br>
+                            y recomendaciones basadas en los datos.<br><br>
+
+                            <i><b>🖥️ Vista General (Overview)</b></i><br>
+                            <b>S (Situación):</b><br>
+                            Andes Retail Group opera en Perú, Chile y Colombia, con tres segmentos de clientes y cuatro categorías<br>
+                            de productos, se presentan datos comerciales de 2024–2025.<br><br>
+
+                            <b>C (Complicación):</b><br>
+                            A pesar de contar con pilares fuertes, los ingresos globales registran una tendencia a la baja entre<br>
+                            2024 y 2025 (cercana a $194,000), acompañada de contracciones estacionales marcadas a mitad de año y<br>
+                            un comportamiento heterogéneo por país (donde Chile y Colombia presentan caídas más pronunciadas, <br>
+                            mientras Perú se mantiene más estable).<br><br>
+
+                            <b>Q (Pregunta):</b><br>
+                            ¿Qué mercados y categorías explican el desempeño comercial y dónde existen oportunidades para mejorar<br>
+                            los ingresos y la rentabilidad? ¿Qué segmentos y categorías sostienen el negocio actual y cómo podemos<br>
+                            frenar la tendencia a la baja para estabilizar los ingresos y proteger la rentabilidad?<br><br>
+
+                            <b>A (Respuesta):</b><br>
+                            Apalancarse en las fortalezas comerciales existentes potenciando el segmento dominante Premium y las<br>
+                            categorías líderes Deportes y Electrónica, al tiempo que se despliegan tácticas de reactivación enfocadas<br>
+                            en los mercados con mayor contracción (Chile y Colombia) para mitigar las caídas estacionales.<br><br>
+
+                            <i><b>🔎 Vista Detalle</b></i><br>
+                            <b>S (Situación):</b><br>
+                            Andes Retail Group analiza el detalle de sus operaciones en Perú, Chile y Colombia (2024–2025) a través<br>
+                            de sus regiones (Centro, Norte, Sur), segmentos de cliente (Económico, Estándar, Premium), categorías de<br>
+                            producto (Deportes, Electrónica, Ropa, Hogar) y estacionalidad.<br><br>
+
+                            <b>C (Complicación):</b><br>
+                            La contracción en ingresos interanuales parece estar impulsada principalmente por dos factores clave:<br><br>
+                             • Caída en el Segmento Premium: Las ventas del segmento Premium disminuyeron de 2024 a 2025 en los tres países,<br>
+                            reduciendo el margen de ingresos.<br>
+                             • Efecto Estacional en Invierno: Se identifica un valle crítico de ingresos entre junio y agosto (Invierno en<br>
+                            el hemisferio sur) en todos los mercados, siendo Chile el país con las caídas más pronunciadas.<br><br>
+
+                            <b>Q (Pregunta):</b><br>
+                            ¿Cómo se pueden mitigar las caídas estacionales de mitad de año y qué estrategias se deben implementar para<br>
+                            reactivar la demanda en el segmento Premium y en las regiones clave?<br><br>
+
+                            <b>A (Respuesta):</b><br>
+                             • Estrategia Anti-Ciclo (Invierno): Diseñar campañas promocionales y lanzamientos específicos durante el periodo<br>
+                            junio–agosto para compensar el valle estacional en la región.<br>
+                             • Reactivación del Segmento Premium: Revisar la oferta de valor, precios o fidelización orientada a clientes Premium<br>
+                            para revertir la tendencia a la baja observada entre 2024 y 2025.<br>
+                             • Foco Regional: Apalancar el crecimiento en la zona Norte (que pasó a ser líder desplazando al Centro) y replicar<br>
+                            la estabilidad de Perú (que muestra recuperaciones marcadas hacia diciembre) en los mercados de Chile y Colombia.<br>                         
+                        </p>
+                    </div>
+
+                    <div class="card-footer bg-white border-0">
+                        <a href="#" class="btn btn-primary">
+                            Volver al Inicio
+                        </a>
+                    </div>
+                </div>
+
+            </div>            
+
+        </div>
+
+        <div class="row justify-content-center">
+            <!-- Proyecto 1 -->
+            <div class="col-md-12">
+                <div class="card project-card h-100">
+
+                    <div class="card-body">
+
+                        <h4 class="card-title">
+                            Dashboards e informes interactivos
+                        </h4>
+               
+                         <div class="col-lg-6">
+                            <p class="card-text">
+                                <br><b>Plataformas utilizadas:</b> Tableau Public: Dashboards online.<br><br>                          
+                            
+                                <b> • Liga al Dashboard de la <u><i>Vista General</i></u> en Tableau Public: </b><br>
+
+                                <i class="fa-solid fa-chart-simple"></i>
+                                <!--target abre el link en otra ventana-->
+                                <a href="https://public.tableau.com/app/profile/jos.moreno5412/viz/DesempeoComercialAndesRetailGroup20242025/VistaGral_?publish=yes"
+                                    target="_blank"
+                                    style="color: rgb(96, 192, 236);">
+                                    Dashboard de la Vista General en Tableau Public
+                                </a>
+                            </p>
+                         </div> 
+                                                  
+                         <div class="col-lg-6">
+                            <p class="card-text">
+                                <br><b> • Liga al Dashboard de la <u><i>Vista de Detalle</i></u> en Tableau Public: </b><br>
+
+                                <i class="fa-solid fa-chart-simple"></i>
+                                <!--target abre el link en otra ventana-->
+                                <a href="https://public.tableau.com/app/profile/jos.moreno5412/viz/DesempeoComercialAndesRetailGroup20242025/VistaDetalle?publish=yes"
+                                    target="_blank"
+                                    style="color: rgb(96, 192, 236);">
+                                    Dashboard de la Vista de Detalle en Tableau Public
+                                </a>
+                            </p>
+                         </div>
+                        </p>
+                    </div>
+
+                    <div class="card-footer bg-white border-0">
+                        <a href="#" class="btn btn-primary">
+                            Volver al Inicio
+                        </a>
+                    </div>
+                </div>
+
+            </div>            
+
+        </div>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center py-4">
+    <p class="mb-0">
+        © 2026 - Desempeño comercial de Andes Retail Group 2024 - 2025 | Bootcamp Data Analyst TripleTen
+    </p>
+    <a href="Proyecto 9 Desempeño comercial Andes Retail Group 2024 - 2025.html" class="btn btn-primary">
+        Volver al Inicio
+    </a>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
